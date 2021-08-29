@@ -11,19 +11,19 @@
 **Описание процесса тестирования**
 
 В процессе тестирования использовались следующие артефакты:
-тест-кейс
+[тест-кейс]( https://docs.google.com/spreadsheets/d/1NSOL0usZjwhTodzLEQnhTLZ5n_s3vQgpa7rnSEW8XBQ/edit?usp=sharing)
 
 *В качестве тестовых данных использовались данные из задачи:*
 
 *Было создано базовое приложение и проверено работоспособность кода:*
-public class Main {
-public static void main(String[] args) {
-double regularBonus = 0.3;
-double specialBonus = 0.6;
-double totalBonus = regularBonus + specialBonus;
-System.out.println(totalBonus);
-}
-}
+    public static void main(String[] args) {
+        double regularBonus = 0.3;
+        double specialBonus = 0.6;
+        double totalBonus = regularBonus + specialBonus;
+        System.out.println(totalBonus);
+    }}
+
+
 * Приложение запустилось и вернуло в консоли значение  "0.8999999999999999". Ожидалось значение "0.9".
 
 **Тестирование производилось в следующем окружении:**
